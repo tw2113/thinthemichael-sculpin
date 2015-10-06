@@ -1,0 +1,8 @@
+# The contents of this file are parsed and made available as
+# via `site.*`. So for example, {{ site.title }} can be used
+# in a template to get the contents of the `title` key.
+title: Thin The Michael
+subtitle: "Day, you're going down!"
+footer: "I've got a cunning plan."
+piwik_id: 2
+default_date_format: M d, Y

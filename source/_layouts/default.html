@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{{ page.title }}{% endblock %} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block head_meta %}
+            <meta name="robots" content="noindex, follow">
+        {% endblock %}
+        <link href="{{ site.url }}/assets/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ site.url }}/assets/components/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ site.url }}/assets/css/style.css" rel="stylesheet" type="text/css" />
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="stylesheet" href="{{ site.url }}/assets/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
+        <style>
+        /** quick fix because bootstrap <pre> has a background-color. */
+        pre code { background-color: inherit; }
+        </style>
+        {% block head_styles %}
+        {% endblock %}
+        {% block head_scripts %}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="{{ site.url }}/">{{ site.title }}</a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li><a href="{{ site.url }}/blog">Blog</a></li>
+                                <li><a href="{{ site.url }}/blog/categories">Categories</a></li>
+                                <li><a href="{{ site.url }}/about">About</a></li>
+                                <li><a href="{{ site.url }}/status_photos">Status Photos</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="mainContent container">
+            <div class="row-fluid">
+                <div class="span8">
+                    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+                </div>
+                <div class="span4 sidebar">
+                    <div class="well sidebar-nav">
+                        <h4>Status</h4>
+                        <ul class="nav">
+                            <li>Weight: 254.5lbs</li>
+                        </ul>
+                        <h4>Links</h4>
+                        <ul class="nav">
+                            <li><a href="https://runkeeper.com/user/tw2113/profile">Runkeeper profile</a></li>
+                            <li><a href="http://www.myfitnesspal.com/tw2113">MyFitnessPal profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container">
+            &copy; {{ "now"|date("Y") }} {{ site.title }}. {{ site.footer }}
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/components/jquery/jquery.min.js"><\/script>')</script>
+        <script src="{{ site.url }}/assets/components/bootstrap/js/bootstrap.min.js"></script>
+        {% block scripts %}
+        {% endblock %}a
+
+        {% block scripts_after %}
+        {% endblock %}
+    </body>
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://trexthepirate.com/traffic/" : "http://trexthepirate.com/traffic/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {{ site.piwik_id }});
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://trexthepirate.com/traffic/piwik.php?idsite={{ site.piwik_id }}" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tracking Code -->
+</html>
