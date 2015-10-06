@@ -1,0 +1,5 @@
+/output_*/
+/.sculpin/
+.idea
+/source/assets/components/
+publish.sh
