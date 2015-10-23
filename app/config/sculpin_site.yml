@@ -3,9 +3,8 @@
 # in a template to get the contents of the `title` key.
 title: Thin The Michael
 subtitle: "Day, you're going down!"
-footer: "I've got a cunning plan."
 piwik_id: 2
 default_date_format: M d, Y
 url: ./
-weight: '250lbs'
-weight_date: '10-19-15'
+weight: '250.5lbs'
+weight_date: '10-23-15'
