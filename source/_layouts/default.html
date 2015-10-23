@@ -77,7 +77,16 @@
             </div>
         </div>
         <footer class="container">
-            &copy; {{ "now"|date("Y") }} {{ site.title }}. {{ site.footer }}
+            &copy; {{ "now"|date("Y") }} {{ site.title }}.
+            {{
+            random(
+                [
+                    'I\'ve got a cunning plan.',
+                    'Damn the man! Thin the Michael!',
+                    'If you\'re not questioning my sanity, I\'m not trying hard enough'
+                ]
+            )
+            }}
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
