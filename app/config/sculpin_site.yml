@@ -4,7 +4,7 @@
 title: Thin The Michael
 subtitle: "Day, you're going down!"
 piwik_id: 2
-default_date_format: M d, Y
+default_date_format: 'M d, Y'
 url: ./
 weight: '248.9lbs'
 weight_date: '10-24-15'
