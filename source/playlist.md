@@ -14,7 +14,6 @@ title: Playlist
 * Ain't That Unusual - The Goo Goo Dolls
 * Angel - Belly
 * Cherub Rock - Smashing Pumpkins
-* Creeping Death - Metallica
 * Cult of Personality - Living Colour
 * Dead Man's Party - Oingo Boingo
 * Creature Comforted - Local H
@@ -30,3 +29,11 @@ title: Playlist
 * Never Gets Old - Penguin Prison
 * Ladykillers - Lush
 * Be With You - The Bangles
+* Milkman - Bully
+* I Was A Teenage Anarchist - Against Me!
+* Cynic - Local H
+* Love Is Dead - The Lovemakers
+* Real World - Matchbox Twenty
+* We Got Nothing - Alex Winston
+* Glue Me To Thee - Miss The Occupier
+* Better Off Without You - Summer Camp
