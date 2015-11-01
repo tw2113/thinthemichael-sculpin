@@ -14,3 +14,6 @@ The picture that started it all
 
 ## 10-15-15
 ![Bathroom selfie showing progress so far](../assets/images/10-15-15.jpg)
+
+## 11-01-15
+![You know nothing, Jon Snow.](../assets/images/11-01-15.jpg)
