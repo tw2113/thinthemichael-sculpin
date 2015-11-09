@@ -39,3 +39,4 @@ title: Playlist
 * On The Roof Again - Eve 6
 * The Bright Light - Tanya Donelly
 * Helena Beat - Foster The People
+* When Worlds Collide - Powerman 5000
