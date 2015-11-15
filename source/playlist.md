@@ -12,13 +12,10 @@ title: Playlist
 * Ain't That Unusual - The Goo Goo Dolls
 * Angel - Belly
 * Cherub Rock - Smashing Pumpkins
-* Cult of Personality - Living Colour
-* Creature Comforted - Local H
 * Everyone Alive - Local H
 * One Vision - Queen
 * Them Bones - Alice In Chains
 * Summer Dress - July Talk
-* It's (A Monster) - Extreme
 * When Tomorrow Comes - The Eurythmics
 * Prepare For The Fight - The Lovemakers
 * Never Gets Old - Penguin Prison
@@ -40,3 +37,8 @@ title: Playlist
 * The Bright Light - Tanya Donelly
 * Helena Beat - Foster The People
 * When Worlds Collide - Powerman 5000
+* Killing In The Name - Rage Against The Machine
+* From Out Of Nowhere - Faith No More
+* Rise - Public Image Ltd.
+* Take It Off - The Donnas
+* Heartbeats - Royal Teeth
