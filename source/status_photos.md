@@ -17,3 +17,8 @@ The picture that started it all
 
 ## 11-01-15
 ![You know nothing, Jon Snow.](../assets/images/11-01-15.jpg)
+
+## 11-21-15
+![I live in the weak and the wounded... Doc.](../assets/images/11-21-15.jpg)
+
+Nothing glaring for difference, but if you look closely, you can see that the stomach area is starting to droop a little less.
