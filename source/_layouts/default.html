@@ -104,31 +104,36 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/components/jquery/jquery.min.js"><\/script>')</script>
         <script src="{{ site.url }}/assets/components/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Piwik -->
+        <script>
+            var pkBaseURL = (("https:" == document.location.protocol) ? "https://trexthepirate.com/traffic/" : "http://trexthepirate.com/traffic/");
+            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script>
+            try {
+                var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {
+                    { site.piwik_id }
+                });
+                piwikTracker.trackPageView();
+                piwikTracker.enableLinkTracking();
+            } catch (err) {}
+        </script>
+        <noscript><p>
+            <img src="http://trexthepirate.com/traffic/piwik.php?idsite={{ site.piwik_id }}" style="border:0" alt="" />
+        </p></noscript>
+        <!-- End Piwik Tracking Code -->
+        <script>
+            var quotes = [
+                '"Let\'s go row."',
+                '"Come with me if you want to lift"'
+            ];
+            var random = quotes[Math.floor(Math.random() * quotes.length)];
+            document.querySelector('#quote').innerHTML = random;
+        </script>
         {% block scripts %}
-        {% endblock %}a
+        {% endblock %}
 
         {% block scripts_after %}
         {% endblock %}
     </body>
-    <!-- Piwik -->
-    <script>
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://trexthepirate.com/traffic/" : "http://trexthepirate.com/traffic/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script>
-    try {
-    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {{ site.piwik_id }});
-    piwikTracker.trackPageView();
-    piwikTracker.enableLinkTracking();
-    } catch( err ) {}
-    </script><noscript><p><img src="http://trexthepirate.com/traffic/piwik.php?idsite={{ site.piwik_id }}" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Code -->
-    <script>
-        var quotes = [
-            '"Let\'s go row."',
-            '"Come with me if you want to lift"'
-        ];
-        var random = quotes[Math.floor(Math.random() * quotes.length)];
-        document.querySelector('#quote').innerHTML = random;
-    </script>
 </html>
