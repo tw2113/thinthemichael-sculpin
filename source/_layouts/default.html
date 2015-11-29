@@ -81,6 +81,10 @@
                             <li><a href="https://www.facebook.com/groups/1469780026645605/">BenchPress Facebook Group</a></li>
                         </ul>
                     </div>
+                    <div class="well">
+                        <h4>Quotes from my trainer</h4>
+                        <span id="quote"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -118,4 +122,12 @@
     } catch( err ) {}
     </script><noscript><p><img src="http://trexthepirate.com/traffic/piwik.php?idsite={{ site.piwik_id }}" style="border:0" alt="" /></p></noscript>
     <!-- End Piwik Tracking Code -->
+    <script>
+        var quotes = [
+            '"Let\'s go row."',
+            '"Come with me if you want to lift"'
+        ];
+        var random = quotes[Math.floor(Math.random() * quotes.length)];
+        document.querySelector('#quote').innerHTML = random;
+    </script>
 </html>
