@@ -8,10 +8,8 @@ title: Playlist
 * Youth Gone Wild - Skid Row
 * Never Say Never - That Dog
 * Volcano Girls - Veruca Salt
-* Baba O'Riley - The WHo
 * Ain't That Unusual - The Goo Goo Dolls
 * Angel - Belly
-* Cherub Rock - Smashing Pumpkins
 * Everyone Alive - Local H
 * One Vision - Queen
 * Them Bones - Alice In Chains
@@ -29,7 +27,6 @@ title: Playlist
 * We Got Nothing - Alex Winston
 * Glue Me To Thee - Miss The Occupier
 * Better Off Without You - Summer Camp
-* War Pigs - Faith No More
 * Titanium Expose - Sonic Youth
 * Love Is A Stranger - The Eurythmics
 * Burn Bridges - The Grates
@@ -40,5 +37,6 @@ title: Playlist
 * Killing In The Name - Rage Against The Machine
 * From Out Of Nowhere - Faith No More
 * Rise - Public Image Ltd.
-* Take It Off - The Donnas
 * Heartbeats - Royal Teeth
+* Hole - Hammerbox
+* Cut Them Out - Erica Nockalls
