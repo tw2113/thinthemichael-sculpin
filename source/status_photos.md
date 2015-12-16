@@ -24,4 +24,4 @@ The picture that started it all
 Nothing glaring for difference, but if you look closely, you can see that the stomach area is starting to droop a little less.
 
 ## 12-15-15
-![Hurrah!](../assets/images/12-15-15/jpg)
+![Hurrah!](../assets/images/12-15-15.jpg)
