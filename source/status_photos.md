@@ -25,3 +25,6 @@ Nothing glaring for difference, but if you look closely, you can see that the st
 
 ## 12-15-15
 ![Hurrah!](../assets/images/12-15-15.jpg)
+
+## 02-06-16
+![Woowoo!](../assets/images/02-06-16.jpg)
